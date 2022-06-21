@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quattrocento Sans', sans-serif; 
+}
+.side-colors{
+    width: 450px;
+    height: 50vw;
+    padding: 50px;
+    display: inline-block;
+    /*background-color: #f2e1ed;*/
+    background: linear-gradient(#f2e1ed, #edebf8);
+    letter-spacing: .3px;
+    line-height: 22px;
+    vertical-align: top;
+}
+.card-title{
+    position: fixed;
+    opacity: 0.8;
+    color: #d3789a;
+    line-height: 25px;
+}
+.card-title a{
+    text-decoration: none;
+}
+.sign-up{
+    display: flex;
+    width: 400px;
+    padding: 30px 100px 0;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+.sign-up h2{
+    margin-bottom: 30px;
+}
+.or{
+    text-align: center;
+    background-color: #fff;
+    margin: -10px auto 10px;
+    width: 30px;
+    margin-bottom: 30px;
+}
+.icon{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 60px;
+    height: 37px;
+    background: linear-gradient(#4285f4, #34a853, #fcbc04, #eb4335);
+    border: none;
+    border-radius: 3px;
+}
+.icon-2{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 60px;
+    height: 37px;
+    background-color: #1da1f2;
+    border: none;
+    border-radius: 3px;
+}
+.icon i{
+    font-size: 24px;
+    color: #fff;
+}
+.icon-2 i{
+    font-size: 24px;
+    color: #fff;
+}
+.icon:hover{
+    opacity: .7;
+}
+.icon-2:hover{
+    opacity: .7;
+}
+.input-title{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #515151;
+}
+.user-input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 25px;
+    border: #fff solid;
+    background-color: #f3f3f4;
+    border-radius: 8px;
+    padding-left: 10px;
+    transition: all .5s;
+}
+.user-input:hover{
+    background-color: #fff;
+    border: #f4a3c1 solid;
+    opacity: .5;
+}
+span{
+    color: #242F9B;
+}
+.chk{
+    margin: 10px  0 20px;
+}
+.chk input{
+    margin-right: 5px;
+}
+.button{
+    width: 160px;
+    padding: 10px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    border: #e38199 solid;
+    color: #fff;
+    font-weight: bold;
+    background-color: #e38199;
+    transition: all 0.3s;
+}
+.button:hover{
+    border:  #dfb4e0 solid;
+    color: #dfb4e0;
+    background-color: #fff;
+}
+.title-sakuravi{
+    font-size: 40px;
+    color: #d3789a;
+    opacity: 0.7;
+}
+.gotolog{
+    margin-top: 15px;
+}
+.gotolog a{
+    text-decoration: none;
+    color: #db80a1;
+}
